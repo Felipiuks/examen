@@ -1,0 +1,25 @@
+module examen
+#(
+	parameter WORD_LENGTH = 12
+)
+
+(
+	// Input Ports
+	input clk,
+	input reset,
+	input start,
+	input [WORD_LENGTH-1:0] dutyCycle,
+	input [WORD_LENGTH-1:0] frequency,
+	
+
+	output pwm_output
+
+
+
+);
+
+
+
+
+
+endmodule
